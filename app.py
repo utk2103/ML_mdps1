@@ -1,4 +1,3 @@
-
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -146,7 +145,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Parkinsons Prediction"):
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease Prediction Using ML")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
